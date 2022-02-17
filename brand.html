@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>О бренде</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+    <div class="container header-container d-flex justify-content-between align-items-center">
+        <a href="index.html" class="logo">
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_11656_416)">
+                    <path
+                        d="M21.5169 22.6493L21.1587 20.9776C20.4207 17.5332 19.0683 14.2964 17.1387 11.3529V8.64058C18.0275 7.97178 18.6035 6.9084 18.6035 5.71289V4.24805C18.6035 3.84355 18.2756 3.51562 17.8711 3.51562H17.1387V0.732422C17.1387 0.32793 16.8107 0 16.4062 0C16.0018 0 15.6738 0.32793 15.6738 0.732422V3.52339C14.3584 3.6001 13.2059 4.29209 12.5 5.31528C11.7941 4.29209 10.6416 3.6001 9.32617 3.52339V0.732422C9.32617 0.32793 8.99824 0 8.59375 0C8.18926 0 7.86133 0.32793 7.86133 0.732422V3.51562H7.1289C6.72441 3.51562 6.39648 3.84355 6.39648 4.24805V5.71289C6.39648 6.9084 6.97246 7.97178 7.86133 8.64058V11.3529C5.93174 14.2964 4.57934 17.5332 3.84126 20.9776L3.48305 22.6493C3.40649 23.0066 3.60507 23.3658 3.94853 23.4909C6.69741 24.4923 9.57451 25 12.5 25C15.4255 25 18.3026 24.4923 21.0515 23.4909C21.3949 23.3658 21.5935 23.0067 21.5169 22.6493ZM15.918 4.98047H17.1387V5.71289C17.1387 6.92446 16.153 7.91016 14.9414 7.91016H13.2324V7.66602C13.2324 6.1852 14.4372 4.98047 15.918 4.98047ZM7.86133 4.98047H9.08203C10.5628 4.98047 11.7676 6.1852 11.7676 7.66602V7.91016H10.0586C8.84702 7.91016 7.86133 6.92446 7.86133 5.71289V4.98047ZM10.0586 9.375H14.9414C15.1922 9.375 15.4371 9.34956 15.6738 9.30132V10.8398H9.32617V9.30132C9.56289 9.34956 9.80781 9.375 10.0586 9.375ZM12.5 23.5352C9.95849 23.5352 7.45561 23.128 5.05073 22.3244L5.27353 21.2846C5.96118 18.0757 7.21054 15.0566 8.98901 12.3047L16.0109 12.3047C17.7894 15.0566 19.0388 18.0757 19.7264 21.2845L19.9492 22.3244C17.5444 23.128 15.0415 23.5352 12.5 23.5352Z"
+                        fill="black" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_11656_416">
+                        <rect width="25" height="25" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <span>Womazing</span>
+        </a>
+        <nav class="navigation header-nav">
+            <ul class="menu d-flex align-items-center flex-wrap">
+                <li class="menu-item">
+                    <a href="index.html" class="menu-link">Главная</a>
+                </li>
+                <li class="menu-item">
+                    <a href="store.html" class="menu-link">Магазин</a>
+                </li>
+                <li class="menu-item">
+                    <a href="brand.html" class="menu-link">О бренде</a>
+                </li>
+                <li class="menu-item">
+                    <a href="contacts.html" class="menu-link">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-buy d-flex align-items-center">
+            <div class="header-buy__order d-flex align-items-center">
+                <button class="order-btn" id="popup-open"></button>
+                <a href="tel:+74958235412" class="order-phone phone">+7 (495) 823-54-12</a>
+            </div>
+            <div class="buy-bags">
+                <button class="bags">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_11656_437)">
+                        <path
+                            d="M23.8454 8.2243C23.7281 8.10906 23.5642 8.05442 23.4012 8.07624H17.0343V5.26295C17.0343 2.4826 14.7804 0.228699 12.0001 0.228699C9.21971 0.228699 6.96582 2.4826 6.96582 5.26295V8.07624H0.598861C0.421164 8.07624 0.243523 8.07624 0.154646 8.2243C0.0352739 8.33902 -0.0201042 8.5051 0.00659291 8.66851L2.22761 20.81C2.53789 22.5037 4.00034 23.7431 5.72199 23.7713H18.278C20.0046 23.7289 21.464 22.4797 21.7724 20.7804L23.9934 8.66851C24.0201 8.5051 23.9648 8.33902 23.8454 8.2243ZM8.1503 5.26295C8.1503 3.13682 9.87388 1.41324 12 1.41324C14.1261 1.41324 15.8497 3.13682 15.8497 5.26295V8.07624H8.1503V5.26295ZM20.5879 20.6323C20.3884 21.7547 19.4179 22.5759 18.278 22.5868H5.72199C4.58212 22.5759 3.61161 21.7547 3.41215 20.6323L1.30959 9.26078H22.6904L20.5879 20.6323Z"
+                            fill="black" />
+                        <path
+                            d="M16.4421 15.0354C16.7692 15.0354 17.0343 14.7702 17.0343 14.4431V12.6663C17.0343 12.3392 16.7692 12.074 16.4421 12.074C16.1149 12.074 15.8498 12.3392 15.8498 12.6663V14.4431C15.8497 14.7702 16.1149 15.0354 16.4421 15.0354Z"
+                            fill="black" />
+                        <path
+                            d="M7.55803 15.0354C7.88514 15.0354 8.1503 14.7702 8.1503 14.4431V12.6663C8.1503 12.3392 7.88514 12.074 7.55803 12.074C7.23092 12.074 6.96576 12.3392 6.96576 12.6663V14.4431C6.96576 14.7702 7.23092 15.0354 7.55803 15.0354Z"
+                            fill="black" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_11656_437">
+                            <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                </button>
+                <!-- <span class="bags-num"></span> -->
+            </div>
+        </div>
+        <div class="menu-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
+
+    <!-- Main -->
+    <main class="main">
+
+        <!-- Breadcrumb -->
+        <section class="brand-breadcrumb breadcrumb-site">
+            <div class="container breadcrumb-container">
+                <h1 class="breadcrumb-title">О бренде</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">О бренде</li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Brand -->
+        <section class="brand" id="brand">
+            <div class="container brand-container">
+                <div class="brand-wrap d-flex flex-column">
+
+                    <div class="brand-item d-flex align-items-center justify-content-between">
+                        <img src="img/brand/brand-img1.png" alt="Woman" class="brand-item__img">
+                        <div class="item-content">
+                            <h3 class="item-content__title">Идея и женщина</h3>
+                            <p class="item-content__text text">
+                                Womazing была основана в 2010-ом и стала одной из самых успешных компаний нашей страны.
+                                Как
+                                и многие итальянские фирмы, Womazing остаётся семейной компанией, хотя ни один из членов
+                                семьи не является модельером.
+
+                                <span>
+                                    Мы действуем по успешной формуле, прибегая к услугам известных модельеров для
+                                    создания своих
+                                    коллекций. Этот метод был описан критиком моды Колином Макдауэллом как форма
+                                    дизайнерского
+                                    со-творчества, характерная для ряда итальянских prêt-a-porter компаний.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="brand-item d-flex align-items-center justify-content-between">
+                        <div class="item-content">
+                            <h3 class="item-content__title">Магия в деталях</h3>
+                            <p class="item-content__text text">
+                                Первый магазин Womazing был открыт в маленьком городке на севере страны в 2010-ом году.
+                                Первая коллекция состояла из двух пальто и костюма, которые были копиями парижских
+                                моделей.
+
+                                <span>
+                                    Несмотря на то, что по образованию основательница была адвокатом, ее семья всегда
+                                    была тесно связана с шитьём (прабабушка основательницы шила одежду для женщин, а
+                                    мать основала профессиональную школу кроя и шитья). Стремление производить одежду
+                                    для масс несло в себе большие перспективы, особенно в то время, когда высокая мода
+                                    по-прежнему доминировала, а рынка качественного prêt-a-porter попросту не
+                                    существовало.
+                                </span>
+                            </p>
+                        </div>
+                        <img src="img/brand/brand-img2.png" alt="Woman" class="brand-item__img">
+                    </div>
+
+                </div>
+                <div class="btn-wrap d-flex justify-content-center">
+                    <a href="store.html" class="brand-btn btn-fill">Открыть магазин</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+    <div class="container footer-container d-flex flex-wrap justify-content-between">
+        <div class="footer-logo">
+            <a href="index.html" class="logo">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_11656_416)">
+                        <path
+                            d="M21.5169 22.6493L21.1587 20.9776C20.4207 17.5332 19.0683 14.2964 17.1387 11.3529V8.64058C18.0275 7.97178 18.6035 6.9084 18.6035 5.71289V4.24805C18.6035 3.84355 18.2756 3.51562 17.8711 3.51562H17.1387V0.732422C17.1387 0.32793 16.8107 0 16.4062 0C16.0018 0 15.6738 0.32793 15.6738 0.732422V3.52339C14.3584 3.6001 13.2059 4.29209 12.5 5.31528C11.7941 4.29209 10.6416 3.6001 9.32617 3.52339V0.732422C9.32617 0.32793 8.99824 0 8.59375 0C8.18926 0 7.86133 0.32793 7.86133 0.732422V3.51562H7.1289C6.72441 3.51562 6.39648 3.84355 6.39648 4.24805V5.71289C6.39648 6.9084 6.97246 7.97178 7.86133 8.64058V11.3529C5.93174 14.2964 4.57934 17.5332 3.84126 20.9776L3.48305 22.6493C3.40649 23.0066 3.60507 23.3658 3.94853 23.4909C6.69741 24.4923 9.57451 25 12.5 25C15.4255 25 18.3026 24.4923 21.0515 23.4909C21.3949 23.3658 21.5935 23.0067 21.5169 22.6493ZM15.918 4.98047H17.1387V5.71289C17.1387 6.92446 16.153 7.91016 14.9414 7.91016H13.2324V7.66602C13.2324 6.1852 14.4372 4.98047 15.918 4.98047ZM7.86133 4.98047H9.08203C10.5628 4.98047 11.7676 6.1852 11.7676 7.66602V7.91016H10.0586C8.84702 7.91016 7.86133 6.92446 7.86133 5.71289V4.98047ZM10.0586 9.375H14.9414C15.1922 9.375 15.4371 9.34956 15.6738 9.30132V10.8398H9.32617V9.30132C9.56289 9.34956 9.80781 9.375 10.0586 9.375ZM12.5 23.5352C9.95849 23.5352 7.45561 23.128 5.05073 22.3244L5.27353 21.2846C5.96118 18.0757 7.21054 15.0566 8.98901 12.3047L16.0109 12.3047C17.7894 15.0566 19.0388 18.0757 19.7264 21.2845L19.9492 22.3244C17.5444 23.128 15.0415 23.5352 12.5 23.5352Z"
+                            fill="black" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_11656_416">
+                            <rect width="25" height="25" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                <span>Womazing</span>
+            </a>
+            <div class="footer-logo__privacy d-flex flex-column">
+                <a href="#" class="privacy-link">© Все права защищены</a>
+                <a href="#" class="privacy-link">Политика конфиденциальности</a>
+                <a href="#" class="privacy-link">Публичная оферта</a>
+            </div>
+        </div>
+        <nav class="navigation footer-nav">
+            <ul class="menu d-flex align-items-center flex-wrap">
+                <li class="menu-item">
+                    <a href="index.html" class="menu-link">Главная</a>
+                </li>
+                <li class="menu-item">
+                    <a href="store.html" class="menu-link">Магазин</a>
+                    <ul class="subcategory">
+                        <li class="subcategory-item">
+                            <a href="store.html" class="subcategory-link">Пальто</a>
+                        </li>
+                        <li class="subcategory-item">
+                            <a href="store.html" class="subcategory-link">Свитшоты</a>
+                        </li>
+                        <li class="subcategory-item">
+                            <a href="store.html" class="subcategory-link">Свитшоты</a>
+                        </li>
+                        <li class="subcategory-item">
+                            <a href="store.html" class="subcategory-link">Толстовки</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="brand.html" class="menu-link">О бренде</a>
+                </li>
+                <li class="menu-item">
+                    <a href="contacts.html" class="menu-link">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer-feedback d-flex flex-column">
+            <a href="tel:+74958235412" class="feedback-phone phone">+7 (495) 823-54-12</a>
+            <a href="mailto:hello@womazing.com" class="feedback-mail">hello@womazing.com</a>
+            <ul class="social d-flex align-items-center">
+                <li class="social-item">
+                    <a href="" class="social-link instagram"></a>
+                </li>
+                <li class="social-item">
+                    <a href="" class="social-link facebook"></a>
+                </li>
+                <li class="social-item">
+                    <a href="" class="social-link twitter"></a>
+                </li>
+            </ul>
+            <a href="#">
+                <img src="img/visa-mastercard.png" alt="Visa">
+            </a>
+        </div>
+    </div>
+</footer>
+
+    <!-- Popup -->
+    <div class="popup" id="popup">
+    <div class="popup-body">
+        <div class="popup-content">
+            <h3 class="popup-title">Заказать обратный звонок</h3>
+            <form action="#" method="post" class="popup-form">
+                <input type="text" class="popup-form__input popup-form__item" placeholder="Имя">
+                <input type="email" class="popup-form__input popup-form__item" placeholder="E-mail">
+                <input type="tel" class="popup-form__input popup-form__item" placeholder="Телефон">
+                <button type="submit" class="btn-fill popup-form__btn popup-form__item">Заказать звонок</button>
+            </form>
+            <button class="popup-close">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+    <div class="popup-back"></div>
+</div>
+
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
